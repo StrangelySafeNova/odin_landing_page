@@ -42,15 +42,42 @@ a {
 /* Section 1 */
 
 .section1 {
-    /* background-color: #1F2937; */
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #1F2937;
     display: flex;
-    padding: 25px 150px;
+    padding: 50px 150px 75px;
+    gap: 30px;
 }
 
 .section1 img {
-    
+    width: 700px;
+    height: 200px;
+    background-color: grey;
 }
 
-.section1-left {
+.section1-left h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
 
+.section1-left p {
+    color: #E5E7EB;
+    margin: 10px 0 10px;
+    max-width: 700px;
+}
+
+.section1-left button {
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
