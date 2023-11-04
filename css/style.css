@@ -187,6 +187,13 @@ button {
     color: #3882F6;
 }
 
+/* Footer */
+
+.footer {
+    padding: 25px auto;
+    text-align: center;
+}
+
 /* Add limit width for placeholder image (section 1) 
 Add margin between setion 2 and section 3 
 Make blue boxes bigger */
