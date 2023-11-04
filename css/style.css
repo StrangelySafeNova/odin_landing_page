@@ -69,7 +69,7 @@ a {
     max-width: 700px;
 }
 
-.section1-left button {
+button {
     border-radius: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
@@ -94,7 +94,7 @@ a {
 }
 
 .section2 h1 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: extra-bold;
     color: #1F2937;
 }
@@ -122,3 +122,71 @@ a {
     text-align: center;
     max-width: 200px;
 }
+
+/* Section 3 */
+
+.section3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    max-width: 700px;
+    margin: 50px auto 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .quote-text {
+    font-family: 'Muli', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 25px auto 0;
+}
+
+.quote p {
+    margin-left: auto;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Section 4 */
+
+.section4 {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad {
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 80px;
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.ad-left h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.ad-left p {
+    margin: 0;
+}
+
+.ad button {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+/* Add limit width for placeholder image (section 1) 
+Add margin between setion 2 and section 3 
+Make blue boxes bigger */
